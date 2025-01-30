@@ -1,0 +1,37 @@
+#!/bin/bash
+
+
+
+# Check if the command line argument is provided (should be a .txt file)
+if [ -z "$1" ]; then # -z returns 1 if no command line argument passed
+    echo "Usage: $0 testSetFile" >&2
+    exit 1 # returns 1 to indicate there was an error
+fi
+
+
+
+# Get the test set file from the first argument
+test_set_file="$1"
+
+# Check if the test set file (.txt) exists
+if [ ! -f "$test_set_file" ]; then # if test_set_file does not exist
+    echo "$test_set_file: does not exist!" >&2
+    exit 1 # returns 1 to indicate there was an error
+fi
+
+
+
+# Iterate over each line (file stem) in the test set file
+for line in $(cat $1); do
+
+    for stem in $line; do
+
+        # Check if the description file exists
+        if [ -f "${stem}.desc" ]; then
+            cat "${stem}.desc" # If it exists, print the contents of the description file
+        else
+            echo "${stem} No test description" # If it doesn't exist, print an error message
+        fi
+    done
+
+done < "$test_set_file"
