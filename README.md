@@ -40,12 +40,16 @@ This is part 2 of a 2 sequence intensive introduction to Computing Science. Part
 - Templates
 
 ## Assignments
-1 **Assignment 1: Introduction to Bash Scripting and File Handling**
-  In this assignment, students will be introduced to the basics of bash scripting and file manipulation. The focus will be on creating scripts to automate the testing process, handle input and output files, and compare results with expected outputs. Students will work with bash scripts, C programming, and gain experience in automating tasks related to test execution and file management. The assignment includes exercises on using conditional statements, loops, and error handling in scripts.
-2 **Assignment 2: [Details Pending]**
-3 **Assignment 3: [Details Pending]**
-4 **Assignment 4: [Details Pending]**
-5 **Assignment 5: [Details Pending]**
+1. **Assignment 1: Introduction to Bash Scripting and File Handling**  
+   In this assignment, students will be introduced to the basics of bash scripting and file manipulation. The focus will be on creating scripts to automate the testing process, handle input and output files, and compare results with expected outputs. Students will work with bash scripts, C programming, and gain experience in automating tasks related to test execution and file management. The assignment includes exercises on using conditional statements, loops, and error handling in scripts.
+
+2. **Assignment 2: [Details Pending]**  
+   
+3. **Assignment 3: [Details Pending]**  
+   
+4. **Assignment 4: [Details Pending]**  
+   
+5. **Assignment 5: [Details Pending]**  
 
 ## License
 All materials and code in this repository are for personal study purposes only.
