@@ -43,8 +43,11 @@ This is part 2 of a 2 sequence intensive introduction to Computing Science. Part
 1. **Assignment 1: Introduction to Bash Scripting and File Handling**  
    In this assignment, students will be introduced to the basics of bash scripting and file manipulation. The focus will be on creating scripts to automate the testing process, handle input and output files, and compare results with expected outputs. Students will work with bash scripts, C programming, and gain experience in automating tasks related to test execution and file management. The assignment includes exercises on using conditional statements, loops, and error handling in scripts.
 
-2. **Assignment 2: [Details Pending]**  
-   
+2. **Assignment 2: Credit Card Verification, Roman Numerals, and Wordl**  
+   - **Credit Card Verification**: Implement Luhn's algorithm to validate credit card numbers using a checksum method. The program should read an account number from input and print whether it is valid or invalid. The challenge is to solve it without using arrays or pointers.
+   - **Roman Numerals**: Write a program to convert simplified Roman numerals into Arabic numerals using a set of predefined rules for numeral positioning and subtraction.
+   - **Wordl**: Develop a word-guessing game similar to Wordle. The game should provide colorized feedback based on letter positions and allow six attempts for the user to guess the correct word.
+
 3. **Assignment 3: [Details Pending]**  
    
 4. **Assignment 4: [Details Pending]**  
