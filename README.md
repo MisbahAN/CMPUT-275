@@ -48,7 +48,10 @@ This is part 2 of a 2 sequence intensive introduction to Computing Science. Part
    - **Roman Numerals**: Write a program to convert simplified Roman numerals into Arabic numerals using a set of predefined rules for numeral positioning and subtraction.
    - **Wordl**: Develop a word-guessing game similar to Wordle. The game should provide colorized feedback based on letter positions and allow six attempts for the user to guess the correct word.
 
-3. **Assignment 3: [Details Pending]**  
+3. **Assignment 3: Reverse Polish Notation, Integer Sets, and Image Translation**  
+   - **Reverse Polish Notation**: Implement an interpreter for arithmetic expressions using reverse polish notation (postfix).  
+   - **Integer Sets**: Create and manipulate sets of integers, supporting operations like insertion, deletion, union, and intersection.  
+   - **Image Translation**: Process and modify PPM images, applying transformations such as flipping and a sepia filter.
    
 4. **Assignment 4: [Details Pending]**  
    
