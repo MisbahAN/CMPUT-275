@@ -53,8 +53,10 @@ This is part 2 of a 2 sequence intensive introduction to Computing Science. Part
    - **Integer Sets**: Create and manipulate sets of integers, supporting operations like insertion, deletion, union, and intersection.  
    - **Image Translation**: Process and modify PPM images, applying transformations such as flipping and a sepia filter.
    
-4. **Assignment 4: [Details Pending]**  
-   
+4. **Assignment 4: Linear Sequences and Maze Game**  
+   - **Linear Sequences**: Write a C program `sequences.c` that reads pairs of arithmetic operators (`add`, `sub`, `mul`, `div`) and operands from standard input. These operators are applied sequentially to produce a linear numeric sequence. When the special input `n` is encountered, the next number in the sequence is computed and printed.
+   - **Maze Game**: Implement an Abstract Data Type (ADT) to represent a maze using the provided header file `maze.h`. Your implementation (`maze.c`) must handle various maze tiles including start (`S`), goal (`G`), open (`O`), wall (`X`), teleporter (`0-9`), and icy tiles (`I`). The player moves based on inputs (`n`, `e`, `s`, `w`) and special tiles affect gameplay dynamics, such as teleportation and sliding movements.
+
 5. **Assignment 5: [Details Pending]**  
 
 ## License
