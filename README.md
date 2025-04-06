@@ -57,7 +57,10 @@ This is part 2 of a 2 sequence intensive introduction to Computing Science. Part
    - **Linear Sequences**: Write a C program `sequences.c` that reads pairs of arithmetic operators (`add`, `sub`, `mul`, `div`) and operands from standard input. These operators are applied sequentially to produce a linear numeric sequence. When the special input `n` is encountered, the next number in the sequence is computed and printed.
    - **Maze Game**: Implement an Abstract Data Type (ADT) to represent a maze using the provided header file `maze.h`. Your implementation (`maze.c`) must handle various maze tiles including start (`S`), goal (`G`), open (`O`), wall (`X`), teleporter (`0-9`), and icy tiles (`I`). The player moves based on inputs (`n`, `e`, `s`, `w`) and special tiles affect gameplay dynamics, such as teleportation and sliding movements.
 
-5. **Assignment 5: [Details Pending]**  
+5. **Assignment 5: Game of Life, Integer Set ADT, and Reflection**  
+   - **Conway’s Game of Life**: Implement Conway’s Game of Life, a cellular automaton on a grid where each cell can be alive (`O`) or dead (`.`). Based on neighbor counts, each cell changes state following simple rules: underpopulation, overpopulation, reproduction, and survival. Commands include `s` for stepping to the next state and `p` for printing the current grid.  
+   - **Integer Set ADT**: Create a full ADT for sets of integers without using STL containers or smart pointers. Implement deep copy constructors and assignment, move constructors and assignment (in constant time), and manual memory management with dynamic arrays that grow by doubling. Support operations include add, remove, union (`|`), intersection (`&`), equality (`==`), subset checks, and printing.  
+   - **Reflection**: Write a simple program that prints three things you enjoyed about learning C and/or C++ this term.
 
 ## License
 All materials and code in this repository are for personal study purposes only.
